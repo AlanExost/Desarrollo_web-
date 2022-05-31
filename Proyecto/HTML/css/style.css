@@ -34,17 +34,17 @@ body, html{
     top: 50%;
     width: 100%;
     text-transform:uppercase;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 3.5vw;
-    text-shadow: -4px 3px 0 #404040;
+    text-shadow: -4px 3px 0 #0c37c5;
 }
 /*Estilo del fondo de los contenidos*/
 .section{
     text-align:justify;
     padding:50px 80px;
-    background:linear-gradient(180deg,rgb(0, 0, 0)10%,rgb(182, 145, 42)) 
+    background:linear-gradient(180deg,rgb(51, 78, 117)10%,rgb(0, 129, 101)) 
 }
 /*Estilo del texto para contenidos */
 .contenido{
@@ -52,12 +52,12 @@ body, html{
     width: 55%;
     margin-left: auto;
     margin-right: auto;
-    color: rgb(104, 238, 243);
+    color: rgb(255, 255, 255);
     font-family: 'Amiri', serif;
 }
 /*Configuraciones para las imágenes de fondo*/
 /*Esto es lo que les dará a las imágenes el efecto parallax*/
-.portada, .img2, .img3, .img4, .img5, .img6,.img7,.img8,.img9,.img10,.img11,.img12,.img13,.img14,.img15,.img16,.img17{
+.portada, .img2, .img3, .img4, .img5, .img6,.img7,.img8,.img9,.img10,.img11,.img12,.img13,.img14,.img15,.img16,.img17,.img18,.img19,.img20,.img21,.img22,.img23,.img24,.img25,.img26,.img27{
     position:relative;/*La posición será relativa al bloque*/
     opacity:0.70;/*Porcentaje de opacidad*/
     background-position:center;/*Posición de la imagen al centro*/
@@ -139,4 +139,53 @@ body, html{
 .img17{
     background-image:url(https://portalacademico.cch.unam.mx/sites/default/files/hu2u2oa4p07e01.jpg);
     min-height:100%;
+}
+.img18{
+    background-image:url(https://www.telesurtv.net/__export/1525248552000/sites/telesur/img/multimedia/2018/05/02/urss_imgur.jpg);
+    min-height:100%;
+}
+.img19{
+    background-image:url(http://s25.postimg.cc/pl0uurqin/3064954.jpg);
+    min-height:100%;
+    background-repeat: no-repeat;
+}
+.img20{
+    background-image:url(https://www.lavanguardia.com/files/image_948_465/uploads/2010/08/09/5f9af4f47c3e4.jpeg);
+    min-height:100%;
+    background-repeat: no-repeat;
+}
+.img21{
+    background-image:url(https://www.uv.es/ivorra/Historia/SXX/indonesia.gif);
+    min-height:100%;
+    background-repeat: no-repeat;
+}
+.img22{
+    background-image:url(https://segundaguerramundial.es/wp-content/uploads/2021/12/batalla-de-guadalcanal.jpg);
+    min-height:100%;
+    background-repeat: no-repeat;
+}
+.img23{
+    background-image:url(https://static1.abc.es/media/historia/2019/06/18/filipinas-k1LC--1200x630@abc-keaD--1200x630@abc.jpg);
+    min-height:100%;
+    background-repeat: no-repeat;
+}
+.img24{
+    background-image:url(https://portalacademico.cch.unam.mx/sites/default/files/hu2u2oa4p07e06.jpg);
+    min-height:100%;
+    background-repeat: no-repeat;
+}
+.img25{
+    background-image:url(https://www.duna.cl/media/2019/08/Sadae-Kasoaka-Testigo-del-bombardeo-de-Hiroshima-Informes.jpg);
+    min-height:100%;
+    background-repeat: no-repeat;
+}
+.img26{
+    background-image:url(https://imagenes.elpais.com/resizer/p51Q0a8upqitAp-7PiQCAsHVvnk=/414x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/35NGOTC6VPOTW4FQ4UZWINJLEM.jpg);
+    min-height:100%;
+    background-repeat: no-repeat;
+}
+.img27{
+    background-image:url(https://www.lavoz.com.ar/resizer/I5gngT1r27anV_RiIy4rISfBY1Y=/1023x682/smart/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/QY5C6NPKVBECNJSO5L4MPNUIQI.jpg);
+    min-height:100%;
+    background-repeat: no-repeat;
 }
