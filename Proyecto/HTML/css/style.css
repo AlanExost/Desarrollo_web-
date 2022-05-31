@@ -1,7 +1,6 @@
 /* @import se utiliza para impirtar estilos externos*/
 /*Importar fuentes*/
-@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Playfair+Display&family=Raleway:wght@100;400;500;900&family=Roboto+Flex:opsz,wght@8..144,500;8..144,600;8..144,900&family=Varela+Round&family=Water+Brush&family=Yanone+Kaffeesatz:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Playfair+Display+SC&family=Tiro+Bangla:ital@1&display=swap');
 /*Preparando fondo*/
 body, html{
     height:100%;
@@ -25,7 +24,7 @@ body, html{
     width: 100%;
     text-transform:uppercase;
     color: white;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Tiro Bangla', serif;
     text-shadow: -4px 3px 0 #060606;
 }
 /*Estilo de los subtítulos*/
@@ -37,28 +36,28 @@ body, html{
     text-transform:uppercase;
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    font-size: 6vw;
+    font-weight: 800;
+    font-size: 3.5vw;
     text-shadow: -4px 3px 0 #404040;
 }
 /*Estilo del fondo de los contenidos*/
 .section{
-    text-align:center;
-    padding:20px 80px;
-    background-color: rgb(0, 0, 0);
+    text-align:justify;
+    padding:50px 80px;
+    background:linear-gradient(180deg,rgb(0, 0, 0)10%,rgb(182, 145, 42)) 
 }
 /*Estilo del texto para contenidos */
 .contenido{
     font-family: 'Playfair Display', serif;
-    width: 60%;
+    width: 55%;
     margin-left: auto;
     margin-right: auto;
-    color: white;
-    font-size: x-large;
+    color: rgb(104, 238, 243);
+    font-family: 'Amiri', serif;
 }
 /*Configuraciones para las imágenes de fondo*/
 /*Esto es lo que les dará a las imágenes el efecto parallax*/
-.portada, .img2, .img3, .img4, .img5{
+.portada, .img2, .img3, .img4, .img5, .img6,.img7,.img8,.img9,.img10,.img11,.img12,.img13,.img14,.img15,.img16,.img17{
     position:relative;/*La posición será relativa al bloque*/
     opacity:0.70;/*Porcentaje de opacidad*/
     background-position:center;/*Posición de la imagen al centro*/
@@ -68,23 +67,76 @@ body, html{
 }
 /*Clases con las imágenes de cada bloque*/
 .portada{
-    background-image: url('../img/fondo1-1.jpg');
+    background-image: url(https://cdni.russiatoday.com/actualidad/public_images/2015.05/article/r/1104/90/jpeg/5544c2c0c4618849688b4631.jpg);
     min-height:100%;
     vertical-align: middle;
 }
 .img2{
-    background-image:url('../img/fondo2.jpg');
+    background-image:url(https://static2.abc.es/media/cultura/2020/10/09/beevor1-kR3B--620x349@abc.jpg);
     min-height:100%;
 }
 .img3{
-    background-image:url('../img/fondo3-1.JPG');
+    background-image:url(https://i.redd.it/dg8xow2kvw461.png);
     min-height:100%;
 }
 .img4{
-    background-image:url('../img/fondo4.jpg');
+    background-image:url(https://www.diariodesevilla.es/2022/03/04/vital/Adolf-Hitler-Segunda-Guerra-Mundial_1662145279_153166628_667x375.jpg);
     min-height:100%;
 }
 .img5{
-    background-image:url('../img/fondo5.jpg');
+    background-image:url(https://okdiario.com/img/2021/09/01/segunda-guerra-mundial.jpeg);
+    min-height:100%;
+} 
+.img6{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/5/53/Polish_cavalry_in_Sochaczew%281939%29a.jpg);
+    min-height:100%;
+    background-repeat: no-repeat;
+} 
+.img7{
+    background-image:url(https://1.bp.blogspot.com/-6M3U4-pSk_Q/WkoUiR0G3nI/AAAAAAACcWY/b3XiB0YcWBs86wWyiJhzDwA6cWzhZrnOgCLcBGAs/s1600/Andres-Felipe-Mejia-desaparecido-Farc-1920-2.jpg);
+    min-height:100%;
+    background-repeat: no-repeat;
+}
+.img8{
+    background-image:url(https://radiolatinamerika.no/images-old2/2016/9abril1940Oslo.jpg);
+    min-height:100%;
+    background-repeat: no-repeat;
+}
+.img10{
+    background-image:url(https://www.lavanguardia.com/files/article_main_microformat/uploads/2020/06/22/5fa96eb1ad2f4.jpeg);
+    min-height:100%;
+    background-repeat: no-repeat;
+}
+.img11{
+    background-image:url(https://portalacademico.cch.unam.mx/sites/default/files/hu2u2oa4p05e08.jpg);
+    min-height:100%;
+    background-repeat: no-repeat;
+}
+.img9{
+    background-image:url(https://i.imgur.com/6wt0NDU.jpg);
+    min-height:100%;
+}
+.img12{
+    background-image:url(http://c.files.bbci.co.uk/3DF5/production/_110616851_gettyimages-89277106-2.jpg);
+    min-height:100%;
+}
+.img13{
+    background-image:url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/04/25114118/batalla-de-berlin-segunda-guerra-mundial-1920.jpg);
+    min-height:100%;
+}
+.img14{
+    background-image:url(https://portalacademico.cch.unam.mx/sites/default/files/hu2u2oa4p06e03b.jpg);
+    min-height:100%;
+}
+.img15{
+    background-image:url(https://i0.wp.com/skdesu.com/wp-content/uploads/2019/05/pear-harbor-ataque.jpg?resize=799%2C450&ssl=1);
+    min-height:100%;
+}
+.img16{
+    background-image:url(https://historiando.org/wp-content/uploads/2022/04/iwo-jima-flag-raising-rosenthal-gung-ho-768x445.jpg);
+    min-height:100%;
+}
+.img17{
+    background-image:url(https://portalacademico.cch.unam.mx/sites/default/files/hu2u2oa4p07e01.jpg);
     min-height:100%;
 }

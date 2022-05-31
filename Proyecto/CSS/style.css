@@ -32,8 +32,8 @@ nav {
     text-align: right;
 }
 .cont-cat a{
-    padding-left: 25px;
-    padding-right: 50px;
+    padding-left: 10px;
+    padding-right: 20px;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: uppercase;
@@ -92,7 +92,7 @@ nav {
     text-align: center;
 }
 .cont-a a:hover{
-    opacity: 50%;
+    opacity: 80%;
     transform: scale(110%);
     page-break-after: right;
 }
